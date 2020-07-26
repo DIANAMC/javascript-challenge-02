@@ -22,3 +22,8 @@ const waiter = () => {
 };
 
 waiter();
+
+function randomTime(){
+  return Math.floor(Math.random()*(8000-1000))+1000 +'ms'
+}
+console.log(randomTime())
